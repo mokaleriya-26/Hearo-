@@ -1,0 +1,165 @@
+# ==============================================================================
+# Hearo (.gitignore)
+# Configured for Flutter, ESP32 TinyML, Python Training, and Audio Processing
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python, Virtual Environments & Caches
+# ------------------------------------------------------------------------------
+soundsense-venv/
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.so
+dist/
+build-python/
+
+# ------------------------------------------------------------------------------
+# 2. Audio Datasets, Raw WAV Files & Audio Caches (Heavy Blobs)
+# ------------------------------------------------------------------------------
+SoundSense_Final_Dataset/
+SoundSense_Merged_20Class/
+SoundSense_Renamed_Dataset/
+SoundSense_V9_Dataset/
+soundsense_processed_*/
+files/
+
+# Audio formats
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+*.opus
+*.wma
+
+# Huge generated file inventory & candidate lists (>10MB)
+project_files.txt
+project_inventory.txt
+soundsense_audioset_candidates.csv
+urbansound8k_import_log.csv
+
+# ------------------------------------------------------------------------------
+# 3. Machine Learning Models, Checkpoints & Large Artifacts
+# ------------------------------------------------------------------------------
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+*.pb
+*.weights
+
+# Experiment output and model checkpoint directories
+soundsense_padded_model_*/
+soundsense_experiments/
+soundsense_deployment/
+soundsense_aggregation_experiment/
+soundsense_all_windows_evaluation*/
+soundsense_test_evaluation_*/
+soundsense_v9_data_audit/
+soundsense_label_audit/
+
+# ------------------------------------------------------------------------------
+# 4. Logs & Metrics Dumps
+# ------------------------------------------------------------------------------
+*.log
+soundsense_*_training.log
+soundsense_*_evaluation.log
+soundsense_*_preprocessing.log
+.buildlog/
+
+# ------------------------------------------------------------------------------
+# 5. Flutter, Dart & Mobile Builds
+# ------------------------------------------------------------------------------
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/coverage/
+
+# Android build outputs & local config
+/android/.gradle/
+/android/local.properties
+/android/app/build/
+/android/app/debug
+/android/app/profile
+/android/app/release
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# iOS build outputs & CocoaPods
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+**/ios/Flutter/.last_build_id
+
+# macOS / Linux / Windows desktop builds
+/macos/Pods/
+/macos/Flutter/ephemeral/
+/windows/flutter/ephemeral/
+/linux/flutter/ephemeral/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+**/doc/api/
+
+# ------------------------------------------------------------------------------
+# 6. IDEs & Operating System Artifacts
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Atom / Sublime / Editors
+.atom/
+*.swp
+*.swo
+*.bak
+*~
+.history
+.svn/
+.swiftpm/
+
+# Widget Preview
+.widget_preview/
+migrate_working_dir/

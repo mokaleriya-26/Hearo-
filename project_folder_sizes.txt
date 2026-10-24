@@ -1,0 +1,96 @@
+  0B	./android/.kotlin
+  0B	./scripts/analysis
+  0B	./soundsense-venv/include
+4.0K	./.dart_tool/dartpad
+4.0K	./.idea/runConfigurations
+4.0K	./ios/RunnerTests
+4.0K	./macos/RunnerTests
+8.0K	./.idea/libraries
+8.0K	./lib/theme
+8.0K	./macos/Runner.xcworkspace
+8.0K	./soundsense-venv/etc
+8.0K	./test
+ 12K	./ios/Runner.xcworkspace
+ 12K	./soundsense_experiments/baseline
+ 16K	./linux/flutter
+ 16K	./research
+ 16K	./research/audioset_source
+ 16K	./windows/flutter
+ 20K	./firmware
+ 20K	./linux/runner
+ 28K	./lib/models
+ 28K	./lib/widgets
+ 32K	./macos/Flutter
+ 40K	./ios/Flutter
+ 40K	./macos/Runner.xcodeproj
+ 48K	./.dart_tool
+ 52K	./web/icons
+ 56K	./ios/Runner.xcodeproj
+ 56K	./lib/services
+ 56K	./linux
+ 60K	./android/gradle
+ 60K	./scripts/preprocessing
+ 64K	./android/app
+ 68K	./web
+ 88K	./windows/runner
+100K	./lib/screens
+100K	./soundsense_aggregation_experiment
+112K	./.idea/caches
+124K	./windows
+132K	./soundsense-venv/bin
+132K	./soundsense_deployment/quantized
+136K	./ios/Runner
+144K	./.idea
+216K	./soundsense_label_audit
+236K	./lib
+240K	./macos/Runner
+260K	./ios
+336K	./macos
+364K	./soundsense_all_windows_evaluation
+364K	./soundsense_all_windows_evaluation_v3
+408K	./soundsense_test_evaluation_v8_v9
+420K	./soundsense_padded_model_v6_20class_incomplete_epoch1
+564K	./scripts/training
+624K	./scripts
+688K	./soundsense_deployment/mfcc_reference
+840K	./soundsense_deployment/v9_lite
+844K	./soundsense_padded_model_balanced_v2
+920K	./soundsense_padded_model_v6_20class
+920K	./soundsense_padded_model_v7_recording_balanced
+924K	./soundsense_experiments
+936K	./soundsense_padded_model_v4_10windows
+940K	./soundsense_padded_model_v5_recording_balanced
+944K	./soundsense_padded_model_balanced_v3
+1.2M	./soundsense_padded_model_2s
+1.3M	./soundsense_padded_model_v8_recording_f1
+1.4M	./soundsense_padded_model_v9_lite
+1.9M	./soundsense_padded_model_v10_recording_f1
+1.9M	./soundsense_padded_model_v9_recording_f1
+2.4M	./soundsense_deployment/v9
+2.9M	./files/papers()
+4.3M	./soundsense_deployment
+ 14M	./soundsense_v9_data_audit
+ 18M	./android
+ 18M	./android/.gradle
+ 28M	./soundsense-venv/share
+822M	./SoundSense_Final_Dataset/validation
+822M	./SoundSense_Merged_20Class/validation
+822M	./SoundSense_Renamed_Dataset/validation
+1.1G	./soundsense_processed_v9
+1.2G	./SoundSense_V9_Dataset/validation
+1.9G	./files
+1.9G	./files/ei-soundsense-classifier-data
+2.1G	./soundsense-venv
+2.1G	./soundsense-venv/lib
+2.4G	./SoundSense_Final_Dataset/test
+2.4G	./SoundSense_Merged_20Class/test
+2.4G	./SoundSense_Renamed_Dataset/test
+5.3G	./SoundSense_Renamed_Dataset/train
+6.8G	./SoundSense_V9_Dataset/train
+7.2G	./SoundSense_Final_Dataset/train
+7.2G	./SoundSense_Merged_20Class/train
+8.0G	./SoundSense_V9_Dataset
+8.5G	./SoundSense_Renamed_Dataset
+ 10G	./SoundSense_Final_Dataset
+ 10G	./SoundSense_Merged_20Class
+ 42G	.

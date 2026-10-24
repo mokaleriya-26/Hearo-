@@ -1,0 +1,28 @@
+{
+  "comparison": "SoundSense V6 vs V7",
+  "evaluation_level": "recording",
+  "classes": 20,
+  "test_set_accessed": false,
+  "models": {
+    "V6": {
+      "accuracy": 0.666,
+      "macro_f1": 0.5826,
+      "weighted_f1": 0.678,
+      "best_epoch": 13,
+      "best_validation_loss": 1.7421
+    },
+    "V7": {
+      "accuracy": 0.6843,
+      "macro_f1": 0.5597,
+      "weighted_f1": 0.6856,
+      "best_epoch": 17,
+      "best_validation_loss": 1.5912
+    }
+  },
+  "interpretation": {
+    "higher_accuracy": "V7",
+    "higher_macro_f1": "V6",
+    "higher_weighted_f1": "V7",
+    "recommended_action": "Retain both models and test a controlled V8 experiment."
+  }
+}

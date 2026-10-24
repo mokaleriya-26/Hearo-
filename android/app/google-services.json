@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "949352814912",
+    "firebase_url": "https://smart-sound-alert-default-rtdb.firebaseio.com",
+    "project_id": "smart-sound-alert",
+    "storage_bucket": "smart-sound-alert.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949352814912:android:0de3fdec4ed20b5ff782a5",
+        "android_client_info": {
+          "package_name": "com.tinyml.soundalert.sound_alert_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949352814912-o9btbtlt875epj7q3h9t23u90e03rptp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEth5W-vzXu0s3kACOT_ofiD-v1oty-Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949352814912-o9btbtlt875epj7q3h9t23u90e03rptp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "949352814912-utdkf52e4vprbi5vetienoknh5cacj0n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tinyml.soundalert.soundAlertApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
